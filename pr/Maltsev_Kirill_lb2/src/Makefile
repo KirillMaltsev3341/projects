@@ -5,6 +5,8 @@ CFLAGS = -Wall -std=gnu99
 SRC = $(wildcard *.c)
 OBJ = $(patsubst %.c, %.o, $(SRC))
 
+all : $(TARGET)
+
 $(TARGET) : $(OBJ)
 	$(CC) $(CFLAGS) $^ -o $@
 
