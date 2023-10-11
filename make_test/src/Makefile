@@ -1,4 +1,4 @@
-TARGET = menu
+TARGET = a.out
 CC = gcc
 
 CORE = ./core/
